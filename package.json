@@ -2,7 +2,7 @@
   "name": "mqtt-rxjs",
   "version": "1.0.0",
   "description": "Rxjs shell for MQTT.js library",
-  "main": "dist/index.js",
+  "main": "dist/Mqtt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts": "tsc -d"

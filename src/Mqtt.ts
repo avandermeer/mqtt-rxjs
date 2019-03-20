@@ -17,7 +17,7 @@ export class Mqtt {
   /**
    * constructor
    */
-  private constructor(host: string, port: number, username: string, password: string) {
+  constructor(host: string, port: number, username: string, password: string) {
 
     this._host = host;
     this._port = port;

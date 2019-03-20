@@ -10,7 +10,7 @@ export declare class Mqtt {
     /**
      * constructor
      */
-    private constructor();
+    constructor(host: string, port: number, username: string, password: string);
     /**
      *
      * @param channel
