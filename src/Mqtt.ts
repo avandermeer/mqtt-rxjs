@@ -73,8 +73,8 @@ export class Mqtt {
       if (MQTTPattern.matches(registration, mqttMessage.topic)) {
         this.subscriptions[registration].next(mqttMessage);
       }
-
     }
+
   }
 
 
