@@ -2,10 +2,21 @@
   "name": "mqtt-rxjs",
   "version": "1.0.0",
   "description": "Rxjs shell for MQTT.js library",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc -d"
   },
   "author": "Albert van der Meer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.3",
+    "mqtt-pattern": "^1.2.0",
+    "rxjs": "^6.0.0",
+    "ws": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.5",
+    "typescript": "^3.0.1"
+  }
 }
