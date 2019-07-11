@@ -8,7 +8,7 @@
     "ts": "tsc -d"
   },
   "author": "Albert van der Meer",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "mqtt": "^2.18.3",
     "mqtt-pattern": "^1.2.0",
@@ -18,5 +18,17 @@
   "devDependencies": {
     "@types/node": "^10.5.5",
     "typescript": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avandermeer/mqtt-rxjs.git"
+  },
+  "keywords": [
+    "mqtt.js",
+    "rxjs"
+  ],
+  "bugs": {
+    "url": "https://github.com/avandermeer/mqtt-rxjs/issues"
+  },
+  "homepage": "https://github.com/avandermeer/mqtt-rxjs#readme"
 }
