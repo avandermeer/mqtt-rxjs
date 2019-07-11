@@ -10,14 +10,14 @@
   "author": "Albert van der Meer",
   "license": "MIT",
   "dependencies": {
-    "mqtt": "^2.18.3",
+    "mqtt": "^3.0.0",
     "mqtt-pattern": "^1.2.0",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.5.2",
     "ws": "^5.1.0"
   },
   "devDependencies": {
-    "@types/node": "^10.5.5",
-    "typescript": "^3.0.1"
+    "@types/node": "^10.14.12",
+    "typescript": "^3.5.3"
   },
   "repository": {
     "type": "git",
