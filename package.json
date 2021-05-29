@@ -13,7 +13,7 @@
     "mqtt": "^3.0.0",
     "mqtt-pattern": "^1.2.0",
     "rxjs": "^6.5.2",
-    "ws": "^5.1.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/node": "^10.14.12",
